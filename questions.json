@@ -1,0 +1,28 @@
+{
+  "Comandos Linux": [
+    {
+      "question": "Qual comando exibe o diretório atual?",
+      "options": ["pwd", "ls", "cd", "dir"],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando lista arquivos ocultos?",
+      "options": ["ls -a", "ls -l", "ls -h", "ls -t"],
+      "answer": 0
+    }
+  ],
+  "Processos": [
+    {
+      "question": "Qual comando mostra os processos em execução?",
+      "options": ["ps", "kill", "top", "jobs"],
+      "answer": 0
+    }
+  ],
+  "Permissões": [
+    {
+      "question": "Qual comando altera permissões de arquivo?",
+      "options": ["chmod", "chown", "ls -l", "umask"],
+      "answer": 0
+    }
+  ]
+}

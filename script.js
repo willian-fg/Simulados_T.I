@@ -47,14 +47,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   let selectedQuestions = [];
 
   if (mode === "full") {
-    // Simulado completo
     let all = [];
     Object.values(data).forEach(qs => all = all.concat(qs));
-    selectedQuestions = shuffle(all).slice(0, 40); // limite de 40
+    selectedQuestions = shuffle(all).slice(0, 40);
     buildQuiz(selectedQuestions);
 
   } else if (mode === "custom") {
-    // Selecionar tópicos
     configDiv.innerHTML = "<h3>Selecione os tópicos:</h3>";
     Object.keys(data).forEach(topic => {
       configDiv.innerHTML += `
@@ -75,7 +73,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
 
   } else if (mode === "single") {
-    // Um único assunto
     configDiv.innerHTML = "<h3>Escolha um assunto:</h3>";
     const select = document.createElement("select");
     Object.keys(data).forEach(topic => {
@@ -100,3 +97,67 @@ document.addEventListener("DOMContentLoaded", async () => {
     showResults(selectedQuestions);
   });
 });
+function showResults(questions) {
+  let score = 0;
+  const desempenho = {};
+
+  // Inicializa desempenho por tópico
+  questions.forEach(q => {
+    if (!desempenho[q.topic]) {
+      desempenho[q.topic] = { acertos: 0, erros: 0 };
+    }
+  });
+
+  // Conta acertos e erros por tópico
+  questions.forEach((q, i) => {
+    const answer = document.querySelector(`input[name="q${i}"]:checked`);
+    const topico = q.topic;
+    if (answer && parseInt(answer.value) === q.answer) {
+      score++;
+      desempenho[topico].acertos++;
+    } else {
+      desempenho[topico].erros++;
+    }
+  });
+
+  // Mostra nota total
+  const resultsDiv = document.getElementById("results");
+  resultsDiv.innerHTML = `Você acertou ${score} de ${questions.length} questões.`;
+
+  // Cria botão “Assuntos a Melhorar”
+  const btn = document.createElement("button");
+  btn.textContent = "Assuntos a Melhorar";
+  btn.style.marginTop = "10px";
+  resultsDiv.appendChild(btn);
+
+  // Div para exibir tópicos a reforçar
+  const reforcoDiv = document.createElement("div");
+  reforcoDiv.style.marginTop = "10px";
+  resultsDiv.appendChild(reforcoDiv);
+
+  // Função para definir a cor da porcentagem
+  function getColor(percentual) {
+    if (percentual <= 30) return "red";
+    else if (percentual <= 50) return "yellow";
+    else if (percentual <= 70) return "green";
+    else if (percentual <= 90) return "green";
+    else return "blue";
+  }
+
+  // Evento de clique
+  btn.addEventListener("click", () => {
+    reforcoDiv.innerHTML = "<h3>Assuntos a melhorar:</h3>";
+    for (const topico in desempenho) {
+      const total = desempenho[topico].acertos + desempenho[topico].erros;
+      const percentual = ((desempenho[topico].acertos / total) * 100).toFixed(0);
+
+      // Apenas mostra os tópicos abaixo de 70%
+      if (percentual < 70) {
+        const p = document.createElement("p");
+        p.textContent = `- ${topico} → ${percentual}% de acertos`;
+        p.style.color = getColor(percentual);
+        reforcoDiv.appendChild(p);
+      }
+    }
+  });
+}

@@ -1,27 +1,201 @@
 {
-  "Comandos Linux": [
+  "Conceitos de Software Livre": [
     {
-      "question": "Qual comando exibe o diretório atual?",
-      "options": ["pwd", "ls", "cd", "dir"],
+      "question": "O que define um software como livre?",
+      "options": [
+        "Pode ser usado, estudado, modificado e redistribuído livremente",
+        "É gratuito para baixar",
+        "Não possui suporte técnico",
+        "É desenvolvido apenas por empresas privadas"
+      ],
       "answer": 0
     },
     {
-      "question": "Qual comando lista arquivos ocultos?",
+      "question": "Qual é a principal diferença entre software livre e software proprietário?",
+      "options": [
+        "Software livre permite acesso ao código-fonte",
+        "Software livre nunca exige pagamento",
+        "Software proprietário não funciona sem internet",
+        "Software proprietário é sempre pago"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qual licença é mais comum em software livre?",
+      "options": ["GPL", "MIT", "Apache", "Todas as anteriores"],
+      "answer": 3
+    },
+    {
+      "question": "A licença GPL permite que você:",
+      "options": [
+        "Distribua o software modificado mantendo a mesma licença",
+        "Venda o software sem restrições de código",
+        "Use o software apenas pessoalmente",
+        "Não mostre o código a ninguém"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qual destes sistemas operacionais é considerado software livre?",
+      "options": ["Linux", "Windows", "macOS", "iOS"],
+      "answer": 0
+    },
+    {
+      "question": "Qual destes softwares é livre?",
+      "options": ["LibreOffice", "Microsoft Office", "Photoshop", "AutoCAD"],
+      "answer": 0
+    },
+    {
+      "question": "Quem é considerado um dos principais defensores do software livre?",
+      "options": ["Richard Stallman", "Bill Gates", "Steve Jobs", "Linus Torvalds"],
+      "answer": 0
+    },
+    {
+      "question": "O que a comunidade de software livre mais valoriza?",
+      "options": [
+        "Colaboração e compartilhamento do código",
+        "Monetização do software",
+        "Patentes e restrições de uso",
+        "Uso exclusivo em empresas"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "O que significa 'copyleft'?",
+      "options": [
+        "Liberdade de distribuir software modificado mantendo a licença",
+        "Não pode ser copiado",
+        "Software de código fechado",
+        "Software gratuito sem direitos autorais"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qual é um objetivo principal do movimento de software livre?",
+      "options": [
+        "Promover liberdade no uso e estudo de software",
+        "Proibir software pago",
+        "Criar sistemas operacionais proprietários",
+        "Evitar colaboração entre desenvolvedores"
+      ],
+      "answer": 0
+    }
+
+    
+  ],
+
+  "Estrutura de Diretórios": [
+    {
+      "question": "Qual é o diretório raiz no Linux?",
+      "options": ["/", "~", ".", ".."],
+      "answer": 0
+    },
+    {
+      "question": "O que significa '.' em um caminho de diretório?",
+      "options": [
+        "Diretório atual",
+        "Diretório raiz",
+        "Diretório pai",
+        "Diretório home do usuário"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando muda o diretório atual?",
+      "options": ["cd", "ls", "pwd", "mv"],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando lista os arquivos do diretório?",
+      "options": ["ls", "cd", "mkdir", "rm"],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando mostra o caminho completo do diretório atual?",
+      "options": ["pwd", "cd", "ls", "tree"],
+      "answer": 0
+    },
+    {
+      "question": "O que significa '..' em um caminho de diretório?",
+      "options": [
+        "Diretório pai",
+        "Diretório atual",
+        "Diretório raiz",
+        "Diretório home"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qual diretório normalmente contém arquivos de configuração do sistema?",
+      "options": ["/etc", "/bin", "/home", "/tmp"],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando cria um novo diretório?",
+      "options": ["mkdir", "rmdir", "touch", "cp"],
+      "answer": 0
+    },
+    {
+      "question": "Como verificar permissões de arquivos e diretórios?",
+      "options": ["ls -l", "cd", "pwd", "chmod"],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando remove um diretório vazio?",
+      "options": ["rmdir", "rm -r", "mkdir", "ls"],
+      "answer": 0
+    }
+  ],
+  
+  "Comandos Básicos de Navegação": [
+    {
+      "question": "Qual comando é usado para mudar de diretório?",
+      "options": ["cd", "ls", "pwd", "mkdir"],
+      "answer": 0
+    },
+    {
+      "question": "Como retornar ao diretório home do usuário?",
+      "options": ["cd ~", "cd /", "cd ..", "cd ."],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando lista os arquivos do diretório atual?",
+      "options": ["ls", "cd", "pwd", "rm"],
+      "answer": 0
+    },
+    {
+      "question": "Como listar arquivos detalhadamente com permissões e tamanho?",
+      "options": ["ls -l", "ls -a", "pwd", "cd"],
+      "answer": 0
+    },
+    {
+      "question": "Como listar arquivos ocultos?",
       "options": ["ls -a", "ls -l", "ls -h", "ls -t"],
       "answer": 0
-    }
-  ],
-  "Processos": [
+    },
     {
-      "question": "Qual comando mostra os processos em execução?",
-      "options": ["ps", "kill", "top", "jobs"],
+      "question": "O que significa '.' em um caminho?",
+      "options": ["Diretório atual", "Diretório pai", "Raiz", "Home do usuário"],
       "answer": 0
-    }
-  ],
-  "Permissões": [
+    },
     {
-      "question": "Qual comando altera permissões de arquivo?",
-      "options": ["chmod", "chown", "ls -l", "umask"],
+      "question": "O que significa '..' em um caminho?",
+      "options": ["Diretório pai", "Diretório atual", "Raiz", "Home do usuário"],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando mostra o caminho completo do diretório atual?",
+      "options": ["pwd", "cd", "ls", "tree"],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando cria um diretório?",
+      "options": ["mkdir", "rmdir", "touch", "rm"],
+      "answer": 0
+    },
+    {
+      "question": "Qual comando remove um diretório vazio?",
+      "options": ["rmdir", "rm -r", "mkdir", "ls"],
       "answer": 0
     }
   ]

@@ -1,230 +1,280 @@
 {
-  "Software Livre": [
-    {
-      "question": "O que define um software como livre?",
-      "options": [
-        "Pode ser usado, estudado, modificado e redistribuído livremente",
-        "É gratuito para baixar",
-        "Não possui suporte técnico",
-        "É desenvolvido apenas por empresas privadas"
-      ],
-      "answer": 0,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "Qual é a principal diferença entre software livre e software proprietário?",
-      "options": [
-        "Software livre permite acesso ao código-fonte",
-        "Software livre nunca exige pagamento",
-        "Software proprietário não funciona sem internet",
-        "Software proprietário é sempre pago"
-      ],
-      "answer": 0,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "Qual licença é mais comum em software livre?",
-      "options": ["GPL", "MIT", "Apache", "Todas as anteriores"],
-      "answer": 3,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "A licença GPL permite que você:",
-      "options": [
-        "Distribua o software modificado mantendo a mesma licença",
-        "Venda o software sem restrições de código",
-        "Use o software apenas pessoalmente",
-        "Não mostre o código a ninguém"
-      ],
-      "answer": 0,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "Qual destes sistemas operacionais é considerado software livre?",
-      "options": ["Linux", "Windows", "macOS", "iOS"],
-      "answer": 0,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "Qual destes softwares é livre?",
-      "options": ["LibreOffice", "Microsoft Office", "Photoshop", "AutoCAD"],
-      "answer": 0,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "Quem é considerado um dos principais defensores do software livre?",
-      "options": ["Richard Stallman", "Bill Gates", "Steve Jobs", "Linus Torvalds"],
-      "answer": 0,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "O que a comunidade de software livre mais valoriza?",
-      "options": [
-        "Colaboração e compartilhamento do código",
-        "Monetização do software",
-        "Patentes e restrições de uso",
-        "Uso exclusivo em empresas"
-      ],
-      "answer": 0,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "O que significa 'copyleft'?",
-      "options": [
-        "Liberdade de distribuir software modificado mantendo a licença",
-        "Não pode ser copiado",
-        "Software de código fechado",
-        "Software gratuito sem direitos autorais"
-      ],
-      "answer": 0,
-      "topic": "Software Livre"
-    },
-    {
-      "question": "Qual é um objetivo principal do movimento de software livre?",
-      "options": [
-        "Promover liberdade no uso e estudo de software",
-        "Proibir software pago",
-        "Criar sistemas operacionais proprietários",
-        "Evitar colaboração entre desenvolvedores"
-      ],
-      "answer": 0,
-      "topic": "Software Livre"
-    }
-  ],
-
-  "Estrutura de Diretórios": [
-    {
-      "question": "Qual é o diretório raiz no Linux?",
-      "options": ["/", "~", ".", ".."],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "O que significa '.' em um caminho de diretório?",
-      "options": [
-        "Diretório atual",
-        "Diretório raiz",
-        "Diretório pai",
-        "Diretório home do usuário"
-      ],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "Qual comando muda o diretório atual?",
-      "options": ["cd", "ls", "pwd", "mv"],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "Qual comando lista os arquivos do diretório?",
-      "options": ["ls", "cd", "mkdir", "rm"],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "Qual comando mostra o caminho completo do diretório atual?",
-      "options": ["pwd", "cd", "ls", "tree"],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "O que significa '..' em um caminho de diretório?",
-      "options": [
-        "Diretório pai",
-        "Diretório atual",
-        "Diretório raiz",
-        "Diretório home"
-      ],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "Qual diretório normalmente contém arquivos de configuração do sistema?",
-      "options": ["/etc", "/bin", "/home", "/tmp"],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "Qual comando cria um novo diretório?",
-      "options": ["mkdir", "rmdir", "touch", "cp"],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "Como verificar permissões de arquivos e diretórios?",
-      "options": ["ls -l", "cd", "pwd", "chmod"],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    },
-    {
-      "question": "Qual comando remove um diretório vazio?",
-      "options": ["rmdir", "rm -r", "mkdir", "ls"],
-      "answer": 0,
-      "topic": "Estrutura de Diretórios"
-    }
-  ],
-
-  "Comandos Básicos de Navegação": [
-    {
-      "question": "Qual comando é usado para mudar de diretório?",
-      "options": ["cd", "ls", "pwd", "mkdir"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "Como retornar ao diretório home do usuário?",
-      "options": ["cd ~", "cd /", "cd ..", "cd ."],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "Qual comando lista os arquivos do diretório atual?",
-      "options": ["ls", "cd", "pwd", "rm"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "Como listar arquivos detalhadamente com permissões e tamanho?",
-      "options": ["ls -l", "ls -a", "pwd", "cd"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "Como listar arquivos ocultos?",
-      "options": ["ls -a", "ls -l", "ls -h", "ls -t"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "O que significa '.' em um caminho?",
-      "options": ["Diretório atual", "Diretório pai", "Raiz", "Home do usuário"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "O que significa '..' em um caminho?",
-      "options": ["Diretório pai", "Diretório atual", "Raiz", "Home do usuário"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "Qual comando mostra o caminho completo do diretório atual?",
-      "options": ["pwd", "cd", "ls", "tree"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "Qual comando cria um diretório?",
-      "options": ["mkdir", "rmdir", "touch", "rm"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    },
-    {
-      "question": "Qual comando remove um diretório vazio?",
-      "options": ["rmdir", "rm -r", "mkdir", "ls"],
-      "answer": 0,
-      "topic": "Comandos Básicos de Navegação"
-    }
-  ]
+  "Conceitos de Software Livre": [
+  {
+    "question": "O que caracteriza um software como livre?",
+    "options": [
+      "Liberdade de usar, estudar, modificar e redistribuir o software",
+      "Ser gratuito para todos os usuários",
+      "Não possuir suporte técnico",
+      "Ser desenvolvido apenas por voluntários"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qual é a principal diferença entre software livre e software proprietário?",
+    "options": [
+      "Software livre dá acesso ao código-fonte",
+      "Software livre nunca pode ser vendido",
+      "Software proprietário exige internet para funcionar",
+      "Software proprietário é sempre gratuito"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qual destas é uma licença de software livre?",
+    "options": ["GPL", "Creative Commons BY-NC", "Proprietária", "Trial"],
+    "answer": 0
+  },
+  {
+    "question": "O que o conceito de 'copyleft' garante?",
+    "options": [
+      "Que versões modificadas continuem livres",
+      "Que ninguém copie o software",
+      "Que o software seja gratuito",
+      "Que apenas empresas possam usá-lo"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quem fundou a Free Software Foundation (FSF)?",
+    "options": ["Richard Stallman", "Linus Torvalds", "Bill Gates", "Steve Jobs"],
+    "answer": 0
+  },
+  {
+    "question": "Qual dos seguintes sistemas é considerado software livre?",
+    "options": ["Linux", "Windows", "macOS", "iOS"],
+    "answer": 0
+  },
+  {
+    "question": "Qual destes programas é um exemplo de software livre?",
+    "options": ["LibreOffice", "Microsoft Office", "Photoshop", "CorelDRAW"],
+    "answer": 0
+  },
+  {
+    "question": "Qual é um dos principais objetivos da filosofia do software livre?",
+    "options": [
+      "Promover colaboração e compartilhamento",
+      "Evitar qualquer custo de software",
+      "Proibir uso comercial",
+      "Substituir todos os softwares proprietários"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "A licença GPL obriga que:",
+    "options": [
+      "As modificações também sejam distribuídas como software livre",
+      "O software seja sempre gratuito",
+      "O software só funcione em Linux",
+      "O código-fonte não seja divulgado"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O movimento de software livre surgiu principalmente em resposta a:",
+    "options": [
+      "Restrições de uso impostas por softwares proprietários",
+      "Aumento da velocidade da internet",
+      "Falhas de segurança em sistemas comerciais",
+      "Necessidade de softwares pagos em universidades"
+    ],
+    "answer": 0
+  }
+],
+"Comandos Básicos": [
+  {
+    "question": "Qual comando é usado para mudar de diretório?",
+    "options": ["cd", "ls", "pwd", "mkdir"],
+    "answer": 0
+  },
+  {
+    "question": "Como retornar ao diretório home do usuário?",
+    "options": ["cd ~", "cd /", "cd ..", "cd ."],
+    "answer": 0
+  },
+  {
+    "question": "Qual comando mostra o caminho completo do diretório atual?",
+    "options": ["pwd", "ls", "cd", "tree"],
+    "answer": 0
+  },
+  {
+    "question": "Qual comando lista os arquivos do diretório atual?",
+    "options": ["ls", "pwd", "rm", "mkdir"],
+    "answer": 0
+  },
+  {
+    "question": "Como listar arquivos ocultos em um diretório?",
+    "options": ["ls -a", "ls -l", "pwd", "cd"],
+    "answer": 0
+  },
+  {
+    "question": "Como listar arquivos com detalhes (permissões, donos, tamanho)?",
+    "options": ["ls -l", "ls -a", "pwd", "cat"],
+    "answer": 0
+  },
+  {
+    "question": "O que significa '.' em um caminho?",
+    "options": [
+      "Diretório atual",
+      "Diretório pai",
+      "Diretório raiz",
+      "Diretório home"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O que significa '..' em um caminho?",
+    "options": [
+      "Diretório pai",
+      "Diretório atual",
+      "Diretório raiz",
+      "Diretório home"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qual comando cria um diretório?",
+    "options": ["mkdir", "rmdir", "touch", "cp"],
+    "answer": 0
+  },
+  {
+    "question": "Qual comando remove um diretório vazio?",
+    "options": ["rmdir", "rm -r", "mkdir", "ls"],
+    "answer": 0
+  }
+],
+"Estrutura de Diretórios": [
+  {
+    "question": "Qual é o diretório raiz no Linux?",
+    "options": ["/", "~", ".", ".."],
+    "answer": 0
+  },
+  {
+    "question": "Qual diretório contém os arquivos de configuração do sistema?",
+    "options": ["/etc", "/bin", "/home", "/tmp"],
+    "answer": 0
+  },
+  {
+    "question": "Qual diretório contém os arquivos pessoais dos usuários?",
+    "options": ["/home", "/usr", "/var", "/etc"],
+    "answer": 0
+  },
+  {
+    "question": "Qual diretório guarda arquivos de log do sistema?",
+    "options": ["/var/log", "/etc/logs", "/tmp/log", "/bin/log"],
+    "answer": 0
+  },
+  {
+    "question": "Onde ficam armazenados os binários essenciais do sistema?",
+    "options": ["/bin", "/usr/bin", "/sbin", "/lib"],
+    "answer": 0
+  },
+  {
+    "question": "Qual diretório contém bibliotecas compartilhadas essenciais?",
+    "options": ["/lib", "/bin", "/etc", "/usr/local"],
+    "answer": 0
+  },
+  {
+    "question": "Onde ficam arquivos temporários do sistema?",
+    "options": ["/tmp", "/var/tmp", "/etc/tmp", "/usr/tmp"],
+    "answer": 0
+  },
+  {
+    "question": "Qual diretório contém os arquivos necessários para inicialização do sistema?",
+    "options": ["/boot", "/root", "/sbin", "/etc"],
+    "answer": 0
+  },
+  {
+    "question": "Qual diretório é reservado para o superusuário root?",
+    "options": ["/root", "/home/root", "/etc/root", "/var/root"],
+    "answer": 0
+  },
+  {
+    "question": "Onde ficam instalados programas e aplicativos de usuários?",
+    "options": ["/usr", "/bin", "/opt", "/var"],
+    "answer": 0
+  }
+],
+"Permissões de Arquivos e Diretórios": [
+  {
+    "question": "Qual comando é usado para mudar permissões de arquivos?",
+    "options": ["chmod", "chown", "ls", "umask"],
+    "answer": 0
+  },
+  {
+    "question": "Qual comando é usado para mudar o dono de um arquivo?",
+    "options": ["chown", "chmod", "ls -l", "su"],
+    "answer": 0
+  },
+  {
+    "question": "Qual comando muda o grupo de um arquivo?",
+    "options": ["chgrp", "chmod", "groupadd", "ls"],
+    "answer": 0
+  },
+  {
+    "question": "No comando 'chmod 755 arquivo', o que o número 7 representa para o dono?",
+    "options": [
+      "Permissão de leitura, escrita e execução",
+      "Apenas leitura",
+      "Apenas execução",
+      "Apenas escrita"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "No 'ls -l', o que significa a letra 'd' no início da linha?",
+    "options": [
+      "Diretório",
+      "Arquivo comum",
+      "Arquivo executável",
+      "Link simbólico"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quais são as permissões básicas em arquivos?",
+    "options": [
+      "Leitura, escrita e execução",
+      "Criar, mover e excluir",
+      "Abrir, copiar e fechar",
+      "Download, upload e execução"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qual comando mostra permissões, donos e grupos dos arquivos?",
+    "options": ["ls -l", "pwd", "whoami", "id"],
+    "answer": 0
+  },
+  {
+    "question": "O que significa permissão 'rwxr-xr--'?",
+    "options": [
+      "Dono: leitura, escrita e execução; Grupo: leitura e execução; Outros: leitura",
+      "Todos podem tudo",
+      "Dono só pode ler",
+      "Arquivo protegido contra exclusão"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "O que o comando 'umask' faz?",
+    "options": [
+      "Define permissões padrão para novos arquivos",
+      "Mostra permissões atuais",
+      "Altera dono de arquivos",
+      "Mostra usuários logados"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qual comando permite que apenas o dono de um arquivo possa executá-lo?",
+    "options": [
+      "chmod 700 arquivo",
+      "chmod 644 arquivo",
+      "chmod 777 arquivo",
+      "chmod 555 arquivo"
+    ],
+    "answer": 0
+  }
+]
 }

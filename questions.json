@@ -139,7 +139,7 @@
   },
   {
     "question": "Qual comando remove um diretório vazio?",
-    "options": ["rmdir", "rm -r", "mkdir", "ls"],
+    "option js": ["rmdir", "rm -r", "mkdir", "ls"],
     "answer": 0
   }
 ],
@@ -276,5 +276,45 @@
     ],
     "answer": 0
   }
-]
+],
+{
+    "Usuários e Grupos": [
+        {
+              "question": "Qual comando é usado para adicionar um novo usuário no Linux?",
+                    "options": ["useradd", "adduser", "newuser", "createuser"],
+                          "answer": 0
+                              },
+                                  {
+                                        "question": "Qual comando altera a senha de um usuário?",
+                                              "options": ["passwd", "chpasswd", "usermod -p", "setpass"],
+                                                    "answer": 0
+                                                        },
+                                                            {
+                                                                  "question": "Qual arquivo armazena informações básicas sobre os usuários no sistema?",
+                                                                        "options": ["/etc/passwd", "/etc/shadow", "/etc/group", "/etc/users"],
+                                                                              "answer": 0
+                                                                                  },
+                                                                                      {
+                                                                                            "question": "Onde ficam armazenadas as senhas criptografadas dos usuários?",
+                                                                                                  "options": ["/etc/shadow", "/etc/passwd", "/etc/login.defs", "/etc/security"],
+                                                                                                        "answer": 0
+                                                                                                            },
+                                                                                                                {
+                                                                                                                      "question": "Qual comando é usado para modificar informações de um usuário?",
+                                                                                                                            "options": ["usermod", "useredit", "chuser", "moduser"],
+                                                                                                                                  "answer": 0
+                                                                                                                                      },
+                                                                                                                                          {
+                                                                                                                                                "question": "Qual comando remove um usuário do sistema?",
+                                                                                                                                                      "options": ["userdel", "deluser", "rmuser", "removeuser"],
+                                                                                                                                                            "answer": 0
+                                                                                                                                                                },
+                                                                                                                                                                    {
+                                                                                                                                                                          "question": "Qual comando mostra os grupos aos quais um usuário pertence?",
+                                                                                                                                                                                "options": ["groups", "whoami", "id -u", "usermod -g"],
+                                                                                                                                                                                      "answer": 0
+                                                                                                                                                                                          },
+                                                                                                                                                                                              {
+                                                                                                                                                                                                    "question": "Qual comando adiciona um novo grupo?",
+}
 }
